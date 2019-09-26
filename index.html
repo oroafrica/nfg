@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nfg series</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="http://www.oroafrica.com/au/images/logos/4/favicon_7pgg-0u.ico" rel="shortcut icon" />
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="res/js/index.js"></script>
+        <noscript>
+            <style type="text/css">
+                .pagecontainer {display:none;};
+            </style>
+                <br>
+                <hr>
+                <a href="alt.jsp"><h1 style="margin:auto;width: 80%"><marquee direction="right" scrollamount="15">please enable javascript to proceed</marquee></h1></a>
+                <hr>
+                <a href="alt.jsp"><h1 style="margin:auto;width: 80%"><marquee direction="left" scrollamount="15">please enable javascript to proceed</marquee></h1></a>
+                <hr>
+        </noscript>
+        <style>
+            .input-group-text
+            {
+                min-width: 70px;  
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="pagecontainer container-fluid" >
+            <div class="d-flex mt-3 mb-5 pb-2 border-bottom">
+                <div class="">
+                    <img src="res/images/logo.png" class="ml-2 p-2" width="100px" alt="logo" />
+                </div>
+                <div class="w-100 justify-content-center">
+                    <h2 class="text-center text-secondary" >NFG SERIES 2019</h2>
+                    <h6 class="text-center text-info font-italic small">Consist of 55 base styles branching into 17 categories.</h6>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id="sb" class="col-md-2 text-center w-100" style="min-width:200px"></div>    
+                <div class="col-md-9 offset-1">
+                    <div class="d-inline-flex justify-content-center">
+                        <div>
+                            <canvas id="canvas" class="border border-rounded" width="400px" height="400px"></canvas> 
+                            <h6 id="_desc" class="text-center small text-primary text-monospace"></h6>
+                            <h6 id="_desc" class="text-center small text-info font-italic">Birth accent references form part of style code</h6>
+                            <h6 id="_desc" class="text-center small text-info font-italic">Shape reference form part of personalization (eg. K; FA)</h6>
+                            <h6 id="_desc" class="text-center small text-info font-italic">Multi-part delimiter: space or semi-colon</h6>
+                            <h6 id="_desc" class="text-center small text-info font-italic">Dimensions: millimeters</h6>
+                        </div>
+                        <div id="_inputs" class="ml-5 " style="min-width:200px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var product = new Product();
+            $(()=>{product.sideBar();});
+        </script>    
+    </body>
+</html>
