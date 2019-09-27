@@ -68,6 +68,9 @@ class Product
         
         this.NFG054 = {code:"NFG054",desc:"Large dogtag name pendant",dim:"22 x 35",font:"modern",fontSize:"10",rotate:"0",dy:"0",accent:"yes",textLength:"13",textFormat:"upper and lowercase",note:""};
         this.NFG055 = {code:"NFG055",desc:"Large dropbar name pendant",dim:"8.1 x 35",font:"modern",fontSize:"12",rotate:"0",dy:"0",accent:"yes",textLength:"13",textFormat:"upper and lowercase",note:""};
+       
+        this.NFG056 = {code:"NFG056",desc:"Small quad initial bracelet: 4.5mm loop, 1.5cm spacing",dim:"8.7 x 11.1",font:"none",fontSize:"0",rotate:"0",dy:"0",accent:"no",textLength:"4",textFormat:"uppercase",note:"shapes: BA; FA; HA"};
+        
         //product map
         this.prods = 
         [
@@ -89,7 +92,7 @@ class Product
             {codec:this.NFG046.code,ob:this.NFG046},{codec:this.NFG047.code,ob:this.NFG047},{codec:this.NFG048.code,ob:this.NFG048},
             {codec:this.NFG049.code,ob:this.NFG049},{codec:this.NFG050.code,ob:this.NFG050},{codec:this.NFG051.code,ob:this.NFG051},
             {codec:this.NFG052.code,ob:this.NFG052},{codec:this.NFG053.code,ob:this.NFG053},{codec:this.NFG054.code,ob:this.NFG054},
-            {codec:this.NFG055.code,ob:this.NFG055}
+            {codec:this.NFG055.code,ob:this.NFG055},{codec:this.NFG056.code,ob:this.NFG056}
         ];
    
         
@@ -130,7 +133,7 @@ class Product
             this.imprint_pdt= [this.NFG039,this.NFG040,this.NFG041,this.NFG042];
             this.imprint_br = [this.NFG043,this.NFG044,this.NFG045];
             this.init_pdt = [this.NFG046];
-            this.init_br = [this.NFG047,this.NFG048,this.NFG049];
+            this.init_br = [this.NFG047,this.NFG048,this.NFG049,this.NFG056];
 
             this.lrg_print_pdt = [this.NFG050,this.NFG051];
             this.lrg_sketch_pdt = [this.NFG052,this.NFG053];
